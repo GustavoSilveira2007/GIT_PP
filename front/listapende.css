@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.topo {
+    background-color: goldenrod;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; 
+
+}
+
+.titulo {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.form-container, .history-container {
+    width: 50%;
+    border: 1px solid #ccc;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.form-container h2, .history-container h2 {
+    color: white;
+    margin-top: 0;
+}
+
+.form-container label, .history-container label {
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-container input[type="text"] {
+    color: black;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.form-container button {
+    background-color: goldenrod;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: goldenrod;
+}
+
+.history-container ul {
+    color: white;
+    list-style-type: none;
+    padding: 0;
+}
+
+.history-container li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.pendencias-list {
+    color: white;
+}
+
+.btn-sair {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    color: #000;
+    text-decoration: none;
+}
+.btn-sair i {
+    margin-right: 5px;
+}

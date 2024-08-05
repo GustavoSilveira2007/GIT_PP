@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIT | Pendências</title>
+    <link rel="shortcut icon" href="../img/logo.webp" type="image/x-icon">
+    <link rel="stylesheet" href="menulateral.css">
+    <link rel="stylesheet" href="pendencias.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <header class="topo">
+
+        <div class="titulo">
+            <h1>PENDÊNCIAS</h1>
+        </div>
+
+        <a href="login.html" class="btn-sair">
+            <i class="bi bi-box-arrow-left"></i>
+            <span>Sair</span>
+        </a>
+        
+    
+        <nav class="menu-lateral">
+    
+            <div class="btn-expandir">
+                <i class="bi bi-list" id="btn-exp"></i>
+            </div>
+    
+            <ul>
+                <li class="item-menu ativo">
+                    <a href="home.html">
+                        <span class="icon"><i class="bi bi-house-door"></i></span>
+                        <span class="txt-link">Home</span>
+                    </a>
+                </li>
+                <li class="item-menu">
+                    <a href="programacao.html">
+                        <span class="icon"><i class="bi bi-calendar3"></i></span>
+                        <span class="txt-link">Programação</span>
+                    </a>
+                </li>
+                <li class="item-menu">
+                    <a href="pendencias.html">
+                        <span class="icon"><i class="bi bi-exclamation-square"></i></span>
+                        <span class="txt-link">Pendências</span>
+                    </a>
+                </li>
+                <li class="item-menu">
+                    <a href="mapa.html">
+                        <span class="icon"><i class="bi bi-geo-alt"></i></span>
+                        <span class="txt-link">Mapa</span>
+                    </a>
+                </li>
+            </ul>
+    
+        </nav>
+    </header>
+<div class="container">
+    <div class="form-container">
+    <h2>ADICIONAR PENDÊNCIAS</h2>
+    <form action="#" id="#">
+        <label for="">CPF do Motorista:</label>
+        <input type="number" id="cpfmoto">
+
+        <label for="#">Descrição:</label>
+        <input type="text" id="descricao">
+
+        <label for="#">Data Limite:</label>
+        <input type="date" id="dlimite">
+        <br>
+        <br>
+        <button id="enviar">Enviar Pendência</button>
+    </form>
+    </div>
+</div>
+</body>
+
+<script src="scriptpendencias.js"></script>
+<script src="menulateral.js"></script>
+</html>

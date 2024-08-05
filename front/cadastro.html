@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="login.css">
+    <title>GIT | Cadastro</title>
+    <link rel="shortcut icon" href="../img/logo.webp" type="image/x-icon">
+  
+</head>
+
+<body>
+
+    <div id="login">
+
+        <form class="caixa">
+            
+            <img src="../img/logo.webp" alt="">
+            <h1>CADASTRO</h1>
+
+            <div>
+                <input type="text" id="name" name="name"  placeholder="Nome Completo" required>
+            </div>
+
+            <div>
+                <input type="number" id="cpf" name="cpf"  placeholder="CPF" required>
+            </div>
+
+            <select name="funcao" id="funcao">
+                <option value="Motorista">Motorista</option>
+                <option value="Gestor" selected>Gestor</option>
+            </select>
+
+            <div>
+                <input type="password" id="senha" name="senha" placeholder="Senha" required>
+            </div>
+
+            <div>
+                <input type="password" id="confirmar" placeholder="Confirme a sua senha">
+            </div>
+
+            <div>
+                <p>Já tem uma conta? <a href="login.html">Entre aqui.</a></p>
+            </div>
+
+            <button id="handleSubmit" class="handleSubmit">ENVIAR</button>
+            
+        </form>
+
+    </div>
+    <script src="database.js"></script>    
+</body>
+
+</html>
